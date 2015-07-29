@@ -15,20 +15,79 @@ namespace PercentageCircleSvg;
  */
 class PercentageCircleSvg {
 
+  /**
+   * @var int
+   */
   protected $radius;
+
+  /**
+   * @var int
+   */
   protected $centerX;
+
+  /**
+   * @var int
+   */
   protected $centerY;
+
+  /**
+   * @var int
+   */
   protected $strokeWidth;
+
+  /**
+   * @var int
+   */
   protected $percentage;
+
+  /**
+   * @var string
+   */
   protected $draw;
+
+  /**
+   * @var string
+   */
   protected $donutMaskColor;
+
+  /**
+   * @var string
+   */
   protected $circleColor;
+
+  /**
+   * @var string
+   */
   protected $colorMask;
+
+  /**
+   * @var string
+   */
   protected $spanContentColor;
+
+  /**
+   * @var string
+   */
   protected $textLabelColor;
+
+  /**
+   * @var int
+   */
   protected $textLabel;
+
+  /**
+   * @var string
+   */
   protected $spanContent = '%';
+
+  /**
+   * @var string
+   */
   protected $styleTextLabel = 'font-size: 24px; font-family: Helvetica; alignment-baseline: middle; font-weight: bold;';
+
+  /**
+   * @var string
+   */
   protected $styleSpanContent = 'font-size: 35px; font-weight: bold; margin: 0px; alignment-baseline: middle;';
 
   /**

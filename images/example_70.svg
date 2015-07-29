@@ -1,0 +1,19 @@
+<svg height="300" width="300" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    #text-label { font-size: 24px; font-family: Helvetica; alignment-baseline: middle; font-weight: bold; }
+    #span-content { font-size: 35px; font-weight: bold; margin: 0px; alignment-baseline: middle; }
+  </style>
+  <defs>
+    <mask id="donutMask">
+      <rect x="0" y="0" width="100%" height="100%" fill="white"></rect>
+      <circle r="130" cx="150" cy="150" fill="black"></circle>
+    </mask>
+  </defs>
+  <g>
+    <circle cx="150" cy="150" r="150" fill="green" mask="url(#donutMask)"></circle>
+    <path fill="#056322" d="M 150, 0
+                            A 150, 150, 0, 1, 1, 20.096189432334, 225
+                            L 150, 150 Z" mask="url(#donutMask)"></path>
+    <text id="text-label" x="51%" y="51%" text-anchor="middle" fill="black"><tspan id="span-content" fill="black">70</tspan>%</text>
+  </g>
+</svg>
