@@ -6,3 +6,7 @@ This PHP class allow you to get Percentage Circle Svg. Really customazible, you 
 $svg = new PercentageCircleSvg(50, 25);
 print $svg->getSvg();
 ```
+
+###Examples
+- [Example 1](images/example_50.svg)
+- [Example 2](images/example_70.svg)
