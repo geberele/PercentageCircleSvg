@@ -1,5 +1,5 @@
 #Percentage Circle Svg
-This PHP class allow you to get Percentage Circle Svg. Really customazible, you can change the percenatge, the colors, etc...
+This PHP class allows you to get Percentage Circle Svg. Really customizable, you can change the percentage, the colors, the text, etc...
 
 ##How to use it
 ```
