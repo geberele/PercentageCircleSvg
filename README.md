@@ -6,6 +6,8 @@ This PHP class allows you to get Percentage Circle Svg. Really customizable, you
 $svg = new PercentageCircleSvg(50, 50);
 print $svg->getSvg();
 ```
+[Example 50%](https://github.com/geberele/PercentageCircleSvg/blob/master/images/example_50.svg)
+
 <img src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjEwMCIgd2lkdGg9IjEwMCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDov
 L3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxzdHlsZT4KICAgICN0ZXh0LWxhYmVsIHsgZm9udC1z
 aXplOiAyNHB4OyBmb250LWZhbWlseTogSGVsdmV0aWNhOyBhbGlnbm1lbnQtYmFzZWxpbmU6IG1p
@@ -23,12 +25,12 @@ ICA8dGV4dCBpZD0idGV4dC1sYWJlbCIgeD0iNTElIiB5PSI1MSUiIHRleHQtYW5jaG9yPSJtaWRk
 bGUiIGZpbGw9ImJsYWNrIj48dHNwYW4gaWQ9InNwYW4tY29udGVudCIgZmlsbD0iYmxhY2siPjUw
 PC90c3Bhbj4lPC90ZXh0PgogIDwvZz4KPC9zdmc+Cg==" />
 
-[Example 50%](https://github.com/geberele/PercentageCircleSvg/blob/master/images/example_50.svg)
-
 ```
 $svg = new PercentageCircleSvg(150, 70, 20, '#056322', 'green');
 print $svg->getSvg();
 ```
+[Example 70%](https://github.com/geberele/PercentageCircleSvg/blob/master/images/example_70.svg)
+
 <img src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjMwMCIgd2lkdGg9IjMwMCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDov
 L3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxzdHlsZT4KICAgICN0ZXh0LWxhYmVsIHsgZm9udC1z
 aXplOiAyNHB4OyBmb250LWZhbWlseTogSGVsdmV0aWNhOyBhbGlnbm1lbnQtYmFzZWxpbmU6IG1p
@@ -47,12 +49,12 @@ IjUxJSIgeT0iNTElIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSJibGFjayI+PHRzcGFuIGlk
 PSJzcGFuLWNvbnRlbnQiIGZpbGw9ImJsYWNrIj43MDwvdHNwYW4+JTwvdGV4dD4KICA8L2c+Cjwv
 c3ZnPgo=" />
 
-[Example 70%](https://github.com/geberele/PercentageCircleSvg/blob/master/images/example_70.svg)
-
 ```
 $svg = new PercentageCircleSvg(50, 25, 30, 'grey', 'black', 'white', 'white', 'none');
 print $svg->getSvg();
 ```
+[Example 25%](https://github.com/geberele/PercentageCircleSvg/blob/master/images/example_25.svg)
+
 <img src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjEwMCIgd2lkdGg9IjEwMCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDov
 L3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxzdHlsZT4KICAgICN0ZXh0LWxhYmVsIHsgZm9udC1z
 aXplOiAyNHB4OyBmb250LWZhbWlseTogSGVsdmV0aWNhOyBhbGlnbm1lbnQtYmFzZWxpbmU6IG1p
@@ -70,12 +72,12 @@ dGV4dCBpZD0idGV4dC1sYWJlbCIgeD0iNTElIiB5PSI1MSUiIHRleHQtYW5jaG9yPSJtaWRkbGUi
 IGZpbGw9IndoaXRlIj4KICAgIDx0c3BhbiBpZD0ic3Bhbi1jb250ZW50IiBmaWxsPSJ3aGl0ZSI+
 MjU8L3RzcGFuPiU8L3RleHQ+CiAgPC9nPgo8L3N2Zz4K" />
 
-[Example 25%](https://github.com/geberele/PercentageCircleSvg/blob/master/images/example_25.svg)
-
 ```
 $svg = new PercentageCircleSvg(70, 66, 5, 'purple', 'pink');
 print $svg->getSvg();
 ```
+[Example 66%](https://github.com/geberele/PercentageCircleSvg/blob/master/images/example_66.svg)
+
 <img src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE0MCIgd2lkdGg9IjE0MCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDov
 L3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxzdHlsZT4KICAgICN0ZXh0LWxhYmVsIHsgZm9udC1z
 aXplOiAyNHB4OyBmb250LWZhbWlseTogSGVsdmV0aWNhOyBhbGlnbm1lbnQtYmFzZWxpbmU6IG1p
@@ -93,5 +95,3 @@ InVybCgjZG9udXRNYXNrKSI+PC9wYXRoPgogICAgPHRleHQgaWQ9InRleHQtbGFiZWwiIHg9IjUx
 JSIgeT0iNTElIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSJibGFjayI+CiAgICA8dHNwYW4g
 aWQ9InNwYW4tY29udGVudCIgZmlsbD0iYmxhY2siPjY2PC90c3Bhbj4lPC90ZXh0PgogIDwvZz4K
 PC9zdmc+Cg==" />
-
-[Example 66%](https://github.com/geberele/PercentageCircleSvg/blob/master/images/example_66.svg)
