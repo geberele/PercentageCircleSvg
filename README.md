@@ -6,7 +6,7 @@ This PHP class allows you to get Percentage Circle Svg. Really customizable, you
 $svg = new PercentageCircleSvg(50, 50);
 print $svg->getSvg();
 ```
-[Example 50%](https://github.com/geberele/PercentageCircleSvg/blob/master/images/example_50.svg)
+[Svg example 50%](https://github.com/geberele/PercentageCircleSvg/blob/master/images/example_50.svg)
 
 <img src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjEwMCIgd2lkdGg9IjEwMCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDov
 L3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxzdHlsZT4KICAgICN0ZXh0LWxhYmVsIHsgZm9udC1z
@@ -29,7 +29,7 @@ PC90c3Bhbj4lPC90ZXh0PgogIDwvZz4KPC9zdmc+Cg==" />
 $svg = new PercentageCircleSvg(150, 70, 20, '#056322', 'green');
 print $svg->getSvg();
 ```
-[Example 70%](https://github.com/geberele/PercentageCircleSvg/blob/master/images/example_70.svg)
+[Svg example 70%](https://github.com/geberele/PercentageCircleSvg/blob/master/images/example_70.svg)
 
 <img src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjMwMCIgd2lkdGg9IjMwMCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDov
 L3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxzdHlsZT4KICAgICN0ZXh0LWxhYmVsIHsgZm9udC1z
@@ -53,7 +53,7 @@ c3ZnPgo=" />
 $svg = new PercentageCircleSvg(50, 25, 30, 'grey', 'black', 'white', 'white', 'none');
 print $svg->getSvg();
 ```
-[Example 25%](https://github.com/geberele/PercentageCircleSvg/blob/master/images/example_25.svg)
+[Svg example 25%](https://github.com/geberele/PercentageCircleSvg/blob/master/images/example_25.svg)
 
 <img src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjEwMCIgd2lkdGg9IjEwMCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDov
 L3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxzdHlsZT4KICAgICN0ZXh0LWxhYmVsIHsgZm9udC1z
@@ -76,7 +76,7 @@ MjU8L3RzcGFuPiU8L3RleHQ+CiAgPC9nPgo8L3N2Zz4K" />
 $svg = new PercentageCircleSvg(70, 66, 5, 'purple', 'pink');
 print $svg->getSvg();
 ```
-[Example 66%](https://github.com/geberele/PercentageCircleSvg/blob/master/images/example_66.svg)
+[Svg example 66%](https://github.com/geberele/PercentageCircleSvg/blob/master/images/example_66.svg)
 
 <img src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE0MCIgd2lkdGg9IjE0MCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDov
 L3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxzdHlsZT4KICAgICN0ZXh0LWxhYmVsIHsgZm9udC1z
