@@ -244,69 +244,8 @@ class PercentageCircleSvg {
    *   The angle value.
    */
   protected function getAngle($percentage) {
-    $angle = 90;
-
-    if ($percentage > 0 && $percentage <= 10) {
-      $angle = 60;
-    }
-    elseif ($percentage <= 5) {
-      $angle = 80;
-    }
-    elseif ($percentage <= 13) {
-      $angle = 45;
-    }
-    elseif ($percentage <= 20) {
-      $angle = 30;
-    }
-    elseif ($percentage < 25) {
-      $angle = 15;
-    }
-    elseif ($percentage == 25) {
-      $angle = 0;
-    }
-    elseif ($percentage <= 32) {
-      $angle = 330;
-    }
-    elseif ($percentage <= 38) {
-      $angle = 315;
-    }
-    elseif ($percentage <= 41) {
-      $angle = 300;
-    }
-    elseif ($percentage < 50) {
-      $angle = 285;
-    }
-    elseif ($percentage == 50) {
-      $angle = 270;
-    }
-    elseif ($percentage <= 58) {
-      $angle = 240;
-    }
-    elseif ($percentage <= 66) {
-      $angle = 225;
-    }
-    elseif ($percentage <= 70) {
-      $angle = 210;
-    }
-    elseif ($percentage < 75) {
-      $angle = 195;
-    }
-    elseif ($percentage == 75) {
-      $angle = 180;
-    }
-    elseif ($percentage <= 83) {
-      $angle = 150;
-    }
-    elseif ($percentage <= 88) {
-      $angle = 135;
-    }
-    elseif ($percentage <= 91) {
-      $angle = 120;
-    }
-    elseif ($percentage < 100) {
-      $angle = 95;
-    }
-
+    $needle = 360 / 100;
+    $angle = 90 - ($percentage * $needle);
     return $angle;
   }
 
