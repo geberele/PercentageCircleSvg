@@ -1,0 +1,20 @@
+<svg height="100" width="100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    #text-label { font-size: 24px; font-family: Helvetica; alignment-baseline: middle; font-weight: bold; }
+    #span-content { font-size: 35px; font-weight: bold; margin: 0px; alignment-baseline: middle; }
+  </style>
+  <defs>
+    <mask id="donutMask">
+      <rect x="0" y="0" width="100%" height="100%" fill="white"></rect>
+      <circle r="20" cx="50" cy="50" fill="none"></circle>
+    </mask>
+  </defs>
+  <g>
+    <circle cx="50" cy="50" r="50" fill="black" mask="url(#donutMask)"></circle>
+    <path fill="grey" d="M 50, 0
+                         A 50, 50, 0, 0, 1, 100, 50
+                         L 50, 50 Z" mask="url(#donutMask)"></path>
+    <text id="text-label" x="51%" y="51%" text-anchor="middle" fill="white">
+    <tspan id="span-content" fill="white">25</tspan>%</text>
+  </g>
+</svg>
