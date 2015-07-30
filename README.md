@@ -6,7 +6,7 @@ This PHP class allows you to get Percentage Circle Svg. Really customizable, you
 $svg = new PercentageCircleSvg(50, 50);
 print $svg->getSvg();
 ```
-<img src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjEwMCIgd2lkdGg9IjEwMCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDov
+![Example 50%](data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjEwMCIgd2lkdGg9IjEwMCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDov
 L3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxzdHlsZT4KICAgICN0ZXh0LWxhYmVsIHsgZm9udC1z
 aXplOiAyNHB4OyBmb250LWZhbWlseTogSGVsdmV0aWNhOyBhbGlnbm1lbnQtYmFzZWxpbmU6IG1p
 ZGRsZTsgZm9udC13ZWlnaHQ6IGJvbGQ7IH0KICAgICNzcGFuLWNvbnRlbnQgeyBmb250LXNpemU6
@@ -21,13 +21,13 @@ ICAgICAgICAgICAgICAgQSA1MCwgNTAsIDAsIDAsIDEsIDUwLCAxMDAKICAgICAgICAgICAgICAg
 ICAgICAgICAgICBMIDUwLCA1MCBaIiBtYXNrPSJ1cmwoI2RvbnV0TWFzaykiPjwvcGF0aD4KICAg
 ICA8dGV4dCBpZD0idGV4dC1sYWJlbCIgeD0iNTElIiB5PSI1MSUiIHRleHQtYW5jaG9yPSJtaWRk
 bGUiIGZpbGw9ImJsYWNrIj48dHNwYW4gaWQ9InNwYW4tY29udGVudCIgZmlsbD0iYmxhY2siPjUw
-PC90c3Bhbj4lPC90ZXh0PgogIDwvZz4KPC9zdmc+Cg==">
+PC90c3Bhbj4lPC90ZXh0PgogIDwvZz4KPC9zdmc+Cg==)
 
 ```
 $svg = new PercentageCircleSvg(150, 70, 20, '#056322', 'green');
 print $svg->getSvg();
 ```
-<img src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjMwMCIgd2lkdGg9IjMwMCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDov
+![Example 70%](data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjMwMCIgd2lkdGg9IjMwMCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDov
 L3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxzdHlsZT4KICAgICN0ZXh0LWxhYmVsIHsgZm9udC1z
 aXplOiAyNHB4OyBmb250LWZhbWlseTogSGVsdmV0aWNhOyBhbGlnbm1lbnQtYmFzZWxpbmU6IG1p
 ZGRsZTsgZm9udC13ZWlnaHQ6IGJvbGQ7IH0KICAgICNzcGFuLWNvbnRlbnQgeyBmb250LXNpemU6
@@ -43,13 +43,13 @@ OTQzMjMzNCwgMjI1CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBMIDE1MCwgMTUwIFoiIG1h
 c2s9InVybCgjZG9udXRNYXNrKSI+PC9wYXRoPgogICAgPHRleHQgaWQ9InRleHQtbGFiZWwiIHg9
 IjUxJSIgeT0iNTElIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSJibGFjayI+PHRzcGFuIGlk
 PSJzcGFuLWNvbnRlbnQiIGZpbGw9ImJsYWNrIj43MDwvdHNwYW4+JTwvdGV4dD4KICA8L2c+Cjwv
-c3ZnPgo=">
+c3ZnPgo=)
 
 ```
 $svg = new PercentageCircleSvg(50, 25, 30, 'grey', 'black', 'white', 'white', 'none');
 print $svg->getSvg();
 ```
-<img src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjEwMCIgd2lkdGg9IjEwMCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDov
+![Example 25%](data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjEwMCIgd2lkdGg9IjEwMCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDov
 L3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxzdHlsZT4KICAgICN0ZXh0LWxhYmVsIHsgZm9udC1z
 aXplOiAyNHB4OyBmb250LWZhbWlseTogSGVsdmV0aWNhOyBhbGlnbm1lbnQtYmFzZWxpbmU6IG1p
 ZGRsZTsgZm9udC13ZWlnaHQ6IGJvbGQ7IH0KICAgICNzcGFuLWNvbnRlbnQgeyBmb250LXNpemU6
@@ -64,13 +64,13 @@ ICAgICAgICAgICAgICBBIDUwLCA1MCwgMCwgMCwgMSwgMTAwLCA1MAogICAgICAgICAgICAgICAg
 ICAgICAgICAgTCA1MCwgNTAgWiIgbWFzaz0idXJsKCNkb251dE1hc2spIj48L3BhdGg+CiAgICA8
 dGV4dCBpZD0idGV4dC1sYWJlbCIgeD0iNTElIiB5PSI1MSUiIHRleHQtYW5jaG9yPSJtaWRkbGUi
 IGZpbGw9IndoaXRlIj4KICAgIDx0c3BhbiBpZD0ic3Bhbi1jb250ZW50IiBmaWxsPSJ3aGl0ZSI+
-MjU8L3RzcGFuPiU8L3RleHQ+CiAgPC9nPgo8L3N2Zz4K" />
+MjU8L3RzcGFuPiU8L3RleHQ+CiAgPC9nPgo8L3N2Zz4K)
 
 ```
 $svg = new PercentageCircleSvg(70, 66, 5, 'purple', 'pink');
 print $svg->getSvg();
 ```
-<img src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE0MCIgd2lkdGg9IjE0MCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDov
+![Example 70%](data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE0MCIgd2lkdGg9IjE0MCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDov
 L3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxzdHlsZT4KICAgICN0ZXh0LWxhYmVsIHsgZm9udC1z
 aXplOiAyNHB4OyBmb250LWZhbWlseTogSGVsdmV0aWNhOyBhbGlnbm1lbnQtYmFzZWxpbmU6IG1p
 ZGRsZTsgZm9udC13ZWlnaHQ6IGJvbGQ7IH0KICAgICNzcGFuLWNvbnRlbnQgeyBmb250LXNpemU6
@@ -86,4 +86,4 @@ LjQ5NzQ3NDY4MzA2CiAgICAgICAgICAgICAgICAgICAgICAgICAgIEwgNzAsIDcwIFoiIG1hc2s9
 InVybCgjZG9udXRNYXNrKSI+PC9wYXRoPgogICAgPHRleHQgaWQ9InRleHQtbGFiZWwiIHg9IjUx
 JSIgeT0iNTElIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSJibGFjayI+CiAgICA8dHNwYW4g
 aWQ9InNwYW4tY29udGVudCIgZmlsbD0iYmxhY2siPjY2PC90c3Bhbj4lPC90ZXh0PgogIDwvZz4K
-PC9zdmc+Cg==">
+PC9zdmc+Cg==)
