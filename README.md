@@ -14,6 +14,8 @@ print $svg->getSvg();
 ```
 ![Example 2](https://raw.githubusercontent.com/geberele/PercentageCircleSvg/master/images/example_70.svg)
 
+<img src="https://raw.githubusercontent.com/geberele/PercentageCircleSvg/master/images/example_70.svg" />
+
 ```
 $svg = new PercentageCircleSvg(50, 25, 30, 'grey', 'black', 'white', 'white', 'none');
 print $svg->getSvg();
