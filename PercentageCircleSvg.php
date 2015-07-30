@@ -16,76 +16,106 @@ namespace PercentageCircleSvg;
 class PercentageCircleSvg {
 
   /**
+   * The radius.
+   *
    * @var int
    */
   protected $radius;
 
   /**
+   * The X center of the circle.
+   *
    * @var int
    */
   protected $centerX;
 
   /**
+   * The Y center of the circle.
+   *
    * @var int
    */
   protected $centerY;
 
   /**
+   * The stroke width.
+   *
    * @var int
    */
   protected $strokeWidth;
 
   /**
+   * The percentage to show in the svg.
+   *
    * @var int
    */
   protected $percentage;
 
   /**
+   * The commands to draw the circle path.
+   *
    * @var string
    */
   protected $draw;
 
   /**
+   * The color of the donut mask.
+   *
    * @var string
    */
   protected $donutMaskColor;
 
   /**
+   * The color of the circle.
+   *
    * @var string
    */
   protected $circleColor;
 
   /**
+   * The color of the mask.
+   *
    * @var string
    */
   protected $colorMask;
 
   /**
+   * The color of the text in the span.
+   *
    * @var string
    */
   protected $spanContentColor;
 
   /**
+   * The color of the text in the label.
+   *
    * @var string
    */
   protected $textLabelColor;
 
   /**
+   * The text in the label.
+   *
    * @var int
    */
   protected $textLabel;
 
   /**
+   * The text in the span.
+   *
    * @var string
    */
   protected $spanContent = '%';
 
   /**
+   * The CSS for the text in the label.
+   *
    * @var string
    */
   protected $styleTextLabel = 'font-size: 24px; font-family: Helvetica; alignment-baseline: middle; font-weight: bold;';
 
   /**
+   * The CSS for the text in the span.
+   *
    * @var string
    */
   protected $styleSpanContent = 'font-size: 35px; font-weight: bold; margin: 0px; alignment-baseline: middle;';
