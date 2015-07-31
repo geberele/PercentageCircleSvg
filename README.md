@@ -1,4 +1,8 @@
 #Percentage Circle Svg
+
+Version 1.1
+
+##Description
 This PHP class allows you to create Percentage Circle Svg. Really customizable, you can change the radius of the circle, the percentage, the stroke width, the colors, the text, etc...
 ![Percentage Circle Svg](https://www.drupal.org/files/project-images/percentage_circle_svg.png)
 
